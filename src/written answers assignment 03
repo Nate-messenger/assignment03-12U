@@ -1,0 +1,25 @@
+question 1
+
+function     Big-O 
+
+2n           n^2
+3n+51        n^3
+100          1
+5n3+5n-10    n^3
+3log5n       log n 
+
+
+question 2
+
+the max amount of comparisons would be 4 because the array has to be sorted and it only needs to compare the numbers to the left or right and the middle
+
+question 3
+
+O(n) because it depends on the size of the array 
+
+question 4
+
+if the arrays are sorted then one will run faster
+
+question 5 
+the theoretical best run time is o(1)
