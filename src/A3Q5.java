@@ -15,7 +15,7 @@ public class A3Q5 {
      */
     public static void main(String[] args) {
         A3Q5 test = new A3Q5();
-        String[] letters = new String[]{"best", "car","eat", "are","race","ate", "bat"};
+        String[] letters = new String[]{"p","n" , "a" ,"m"};
         test.insertionSort(letters);
         for (int i = 0; i < letters.length; i++) {
 
@@ -32,7 +32,7 @@ public class A3Q5 {
 
     public void insertionSort(String[] array) {
         //start goight through the array
-        for (int i = 1; i < array.length - 1; i++) {
+        for (int i = 0; i < array.length - 1; i++) {
             //store position
             int position = i;
             //check values beside others
